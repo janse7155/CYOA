@@ -1,0 +1,21 @@
+body {
+    background-color: forestgreen;
+    font-size: 25px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: Papyrus;
+    font-size: 75px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+body > img {
+    width: 45rem;
+    height: 30rem;
+}
