@@ -1,3 +1,7 @@
+html {
+    text-align: center;
+}
+
 body {
     background-color: forestgreen;
     font-size: 25px;
@@ -18,4 +22,9 @@ a {
 body > img {
     width: 45rem;
     height: 30rem;
+}
+
+a#choice {
+    text-decoration: none;
+    font-style: italic;
 }
