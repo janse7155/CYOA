@@ -40,10 +40,10 @@ a#choice:hover {
 }
 
 div:hover p{
-    animation:  shake 0.8s  ;
+    animation:  textshake 0.8s  ;
   }
   
-  @keyframes shake{
+  @keyframes textshake{
     0%{
       transform: translateX(0)
     }
