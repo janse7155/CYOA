@@ -38,3 +38,23 @@ a#choice {
 a#choice:hover {
     color: burlywood;
 }
+
+div:hover p{
+    animation:  shake 0.8s  ;
+  }
+  
+  @keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(15px);
+    }
+      
+    50%{
+      transform: translateX(-15px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
